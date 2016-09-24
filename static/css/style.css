@@ -434,3 +434,76 @@ body {
     position:absolute;
     bottom: 0;
 }
+
+.responsive-iframe-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+ 
+.responsive-iframe-container iframe,   
+.vresponsive-iframe-container object,  
+.vresponsive-iframe-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#chevron-img {
+  height: 300px;
+  width: 300px;
+  padding: 20px 20px 20px 20px;
+}
+
+#p66-img {
+  height: 300px;
+  width: 300px;
+  padding: 20px 20px 20px 20px;
+}
+
+#p-and-g-img {
+  height: 200px;
+  width: 300px;
+  padding: 20px 20px 20px 20px;
+}
+
+#anheuser-busch-img {
+  height:200px;
+  width:300px;
+  padding: 20px 20px 20px 20px;
+}
+
+#novozymes-img{
+  height:200px;
+  width:300px;
+  padding: 20px 20px 20px 20px;
+}
+
+#hilmar-img{
+  height:200px;
+  width:300px;
+  padding: 20px 20px 20px 20px;
+}
+
+textarea {
+    resize: none;
+    width: 200px;
+    height: 200px;
+    min-height: 200px;
+    max-height: 200px;
+}
+
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    background-color: #FFF;
+}
+
+.left {float:left;}
+.right {float:right;}
