@@ -502,8 +502,12 @@ textarea {
     bottom: 0;
     width: 100%;
     height: 20px;
-    background-color: #FFF;
 }
 
 .left {float:left;}
 .right {float:right;}
+
+#logo-img {
+  height:400px;
+  width: 300px;
+}
